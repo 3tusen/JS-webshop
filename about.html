@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chakabrah - Om</title>
+
+    <!--Stylesheet import-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+    
+      <!--Header-->
+    <header>
+        <nav>
+            <div class="ul-and-img">
+                <div class="hamburger" tabindex="0">
+                    <div class="line line-1"></div>
+                    <div class="line line-2"></div>
+                    <div class="line line-3"></div>
+                </div>
+                
+                <!--Hamburger-->
+                <ul class="nav-links" id="nav-links">
+                    <li><a class="nav-a" href="index.html">Hem</a></li>
+                    <li><a class="nav-a" href="snowboards.html">Snowboards</a></li>
+                    <li><a class="nav-a" href="jackets.html">Jackor</a></li>
+                    <li><a class="nav-a" href="pants.html">Byxor</a></li>
+                    <li><a class="nav-a" href="#">Brands</a></li>
+                    <li><a class="nav-a" href="about.html">Om</a></li>
+                </ul>
+            </div>
+
+            <!--Logo link to index-->
+            <a href="index.html">
+                <img src="assets/logotyp.svg" alt="Chakabrah's logotyp, ett hang loose tecken" title="Chakabrah AB" id="logo">
+                </a>
+
+                <!--Icons, one leads to cart-->
+            <div class="icons">
+                <img src="assets/ikon-search.svg" alt="En symbol för sök" title="Sök" class="header-icon">
+              <a href="basket.html"><img src="assets/ikon-cart.svg" alt="En shoppingvagn" title="Varukorg" class="header-icon"></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="content">
+            
+            <!--Banner-image that changes whether screen size changes-->
+            <div class="banner-image">
+                <picture>
+                    <source srcset="assets/About-banner-image/about-banner-image406x550.webp" media="(max-width: 414px)">
+                    <source srcset="assets/About-banner-image/about-banner-image406x550.jpg" media="(max-width: 414px)">
+                        <source srcset="assets/About-banner-image/about-banner-image753x550.webp" media="(max-width: 768px)">
+                        <source srcset="assets/About-banner-image/about-banner-image753x550.jpg" media="(max-width: 768px)">
+                            <source srcset="assets/About-banner-image/about-banner-image1024x550.webp" media="(max-width: 1024px)">
+                            <source srcset="assets/About-banner-image/about-banner-image1024x550.jpg" media="(max-width: 1024px)">
+                                <source srcset="assets/About-banner-image/about-banner-image1520x550.webp" media="(min-width: 1025px)">
+                                <img src="assets/About-banner-image/about-banner-image1520x550.jpg" alt="Bild på berget Åreskutan">
+                </picture>
+            </div>
+            
+            <div class="logo-and-about-company">
+                <a href="index.html">
+                    <img src="assets/logotyp.svg" alt="Chakabrah's logotyp, ett hang loose tecken" title="Chakabrah AB" id="logo-about">
+                    </a>
+
+                <h1>Om oss</h1>
+
+                <p>Vi är ett företag som startades efter flertaliga irritationer som uppstått när utrustningen 
+                    inte klarat av dagens äventyr, trots att vi beställt från stora välkända nätbutiker.
+                </p>
+
+                <p>En idé formades om att bara erbjuda kunder prima prylar som man kan stå bakom 
+                    och att man kan stoltsera med att våran butik tar emot minst reklamationer i Sverige.
+                    Vi tar därför endast in mycket respekterade varumärken och utför noggranna tester för 
+                    att säkerställa att utrustningen håller måttet. Vi finns här för att du ska kunna 
+                    maximera dina dagar utomhus.
+                </p>
+
+                <p>
+                   <span>Välkommen in!</span> Vill du besöka våran fysiska butik så finns vi vid foten utav
+                   Åreskutan på torget. Funderar du på något så har vi en prisvinnande kundservice tillgänglig för dig.
+                </p>
+
+            
+            </div>
+
+            <div class="logo-and-about-company" id="about-developer">
+                <img src="assets/About-banner-image/About-dev.jpg" alt="Utvecklaren åker snowboard">
+
+                <h2>Om utvecklaren</h2>
+
+                <p>
+                    André Stighall är en utvecklare med en passion för berg och skog.
+                    Mycket av inspirationen kommer ifrån sagd passion, antingen från stillheten
+                    eller dom fartfyllda upplevelserna man kan ha på eller i dom. 
+                </p>
+                <h4>Kontakta mig</h4>
+
+                 <a href="mailto:astighall@gmail.com">astighall@gmail.com</a>    
+
+            </div>
+
+            <!--Footer, bit different from other footers-->
+            <div id="about-us-footer">
+                <a href="about.html" class="footer-button">Till Toppen</a>
+                <p class="copyright">&#169; 2021 Chakabrah AB. Alla rättigheter reserverade</p>
+               </div>
+
+        </section>
+    </main>
+
+  
+
+
+
+<script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+{
+    "products": [
+        {
+            "id": 0,
+            "name": "Capita DOA",
+            "description": "Defenders of Awesome är till för dig som vill ha en aggressiv bräda som har full respons men samtidigt ger dig en pop som låter dig flyga ut i stratosfären. Med true camber runt nästan hela brädan så får du en bräda som kräver lite av dig men låter dig vara i full kontroll när du pressar den till max. I nosen och tailen så är det en lätt rocker som ger dig flexen som behövs för att poppa ordentligt och flytet som behövs dom dagar snögudarna har varit extra snälla. <br><br> DOA är till för dig som börjar bli lite mer avancerad i din åkning men behöver ett verktyg för att ta dig vidare till nästa nivå",
+            "category": "Snowboard",
+            "price": 3699,
+            "images": [
+                "DOA1.png",
+                "DOA2.png"
+            ]
+        },
+        {
+            "id": 1,
+            "name": "Bataleon The Sender",
+            "description": "The Sender är som namnet avslöjar, något för dig som vill ösa så mycket det bara går. Med en styv flex på 8/10 så kommer den aldrig att svika dig när du kör i fullt ös. Men med dom tre kontaktpunkterna som finns i nos och tail som Bataleons 3BT teknologi innebär så blir den samtidigt lekfull nog för att göra butters samt pressa upp nosen och tailen. <br><br>The Sender är en riktigt ösig bräda för hela berget. Något perfekt för den lite tyngre och mer aggressiva åkaren.",
+            "category": "Snowboard",
+            "price": 3699,
+            "images": [
+                "DOA1.png",
+                "DOA2.png"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Bataleon Japan Edition",
+            "description": "Bataleon Japan Edition är till för dig som vill kunna åka i meterdjup puder men samtidigt vara lekfull nog för att ge dig en bra dag i backen. Med en flex på 6/10 så blir den lekfull nog för en dag i parken men 3BT teknologin ger dig ett bra flyt på dom riktigt djupa dagarna. <br><br>Japan Edition är rolig att åka med även om du är nybörjare eller avancerad åkare.",
+            "category": "Snowboard",
+            "price": 3699,
+            "images": [
+                "DOA1.png",
+                "DOA2.png"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Norr&#216;na Lofoten Gore-Tex Jacket",
+            "description": "Den klassiska Lofoten jackan är en mycket hållbar och skyddande freeridejacka som ger förstklassig puderfunktionalitet. Jackan är producerad i återvunnet Gore-Tex material som ger dig torra och bekväma dagar på berget.<br><br>Denna jacka visar Norr&#216;na's designfilosofi med funktionell minimalism till fullo. Jackans passform är sydd för att ge dig maximal åtkomst till fickor och liknande när du har ryggsäck och sele på dig.",
+            "category": "Snowboard",
+            "price": 3699,
+            "images": [
+                "DOA1.png",
+                "DOA2.png"
+            ]
+        }
+    ]
+}
